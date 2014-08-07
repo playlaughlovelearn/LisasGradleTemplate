@@ -19,7 +19,8 @@ Instructions for Use
  * `src/main/java` - `.java` files
  * `src/main/resources` - other project resources (`.png`, etc.)
 2. copy the files in this project into the root folder of your project
-3. follow the building instructions in `build.gradle`
+3. edit `build.properties` as instructed in that file, and set the project name in `settings.gradle`
+4. follow the building instructions in `build.gradle`
  * given below, but the instructions in the comments of build.gradle take precdence)
  
 Building (from `build.gradle`)
