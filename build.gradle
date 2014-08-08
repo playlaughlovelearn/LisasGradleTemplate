@@ -65,8 +65,6 @@ configFile.withReader {
     project.ext.config = new ConfigSlurper().parse prop
 }
 
-apply plugin: 'forge'
-
 // this is a properties file which contains various settings about the build, including, among 
 // other things, the Minecraft version, the Forge version, and a token that can be added to 
 // build outputs signifying the originator of the build
